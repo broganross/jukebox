@@ -1,0 +1,376 @@
+openapi: 3.0.3
+info:
+  title: "Jukebox Project"
+  description: |-
+    Sample swagger docs for the Jukebox project
+    Some useful links:
+    - [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)
+    - [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)
+  contact:
+    email: team@domain.com
+  license:
+    name: license name
+    url: http://www.license.url
+  version: 0.0.0
+servers:
+  - url: https://jukebox.domain.com/api/v1
+tags:
+  - name: album
+    description: About albums
+    externalDocs:
+      description: Find out more
+      url: http://swagger.io
+  - name: track
+    description: Access to album tracks
+  - name: queue
+    description: Requesting information from the playback queue
+paths:
+  /album:
+    get:
+      tags:
+        - album
+      summary: List available albums
+      description: Returns the available albums in the discography
+      operationId: listAlbums
+      parameters:
+        - name: page[before]
+          in: query
+          description: Specifies to retrieve entries from before the cursor
+          required: false
+          schema:
+            type: string
+        - name: page[after]
+          in: query
+          description: Specifies to retrieve entries after the cursor
+          schema:
+            type: string
+        - name: page[size]
+          in: query
+          description: Pagination page size
+          required: false
+          schema:
+            type: integer
+            default: 15
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  links:
+                    type: object
+                    properties:
+                      next:
+                        $ref: "#/components/schemas/PaginationNext"
+                      prev:
+                        $ref: "#/components/schemas/PaginationPrevious"
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Album'
+        '400':
+          description: Invalid status value
+      security:
+        - jukebox_auth:
+            - read:albums
+  /album/{albumId}/track:
+    get:
+      tags:
+        - album
+        - track
+      summary: List tracks in the album
+      description: Returns the tracks associated to the album
+      operationId: listAlbumTracks
+      parameters:
+        - name: albumId
+          in: path
+          description: Id of the album to find the tracks of
+          schema:
+            type: string
+          required: true
+        - name: page[before]
+          in: query
+          description: Specifies to retrieve entries from before the cursor
+          required: false
+          schema:
+            type: string
+        - name: page[after]
+          in: query
+          description: Specifies to retrieve entries after the cursor
+          schema:
+            type: string
+        - name: page[size]
+          in: query
+          description: Pagination page size
+          required: false
+          schema:
+            type: integer
+            default: 15
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  links:
+                    type: object
+                    properties:
+                      next:
+                        $ref: "#/components/schemas/PaginationNext"
+                      prev:
+                        $ref: "#/components/schemas/PaginationPrevious"
+                  data:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Track"
+      security:
+        - jukebox_auth:
+            - read:tracks
+
+  /queue:
+    get:
+      tags:
+        - queue
+        - track
+      summary: Get current and next tracks in the playback queue
+      description: Returns the currently playing track, and the next track in the playback queue
+      operationId: getCurrentNextTracks
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  type: #
+                    type: string
+                    enum:
+                      - queue
+                  attributes:
+                    type: object
+                    properties:
+                      current:
+                        $ref: "#/components/schemas/Track"
+                      next:
+                        $ref: "#/components/schemas/Track"
+      security:
+        - jukebox_auth:
+            - read:queue
+
+    post:
+      tags:
+        - queue
+        - track
+      summary: Submit a track to be placed in the queue
+      description: Description
+      operationId: enqueueTrack
+      requestBody:
+        description: Send a track into the playback queue
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                track_id:
+                  type: string
+                  example: "55-01"
+      responses:
+        '201':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  type: #
+                    type: string
+                    enum:
+                      - queue
+                  attributes:
+                    type: object
+                    properties:
+                      track:
+                        $ref: "#/components/schemas/Track"
+                  links:
+                    type: object
+      security:
+        - jukebox_auth:
+            - write:queue
+
+  /credit:
+    post:
+      tags:
+        - credit
+      summary: Submit money to gain playback credits
+      operationId: postCharge
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/requestBodies/Charge'
+      responses:
+        '201':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  type: #
+                    type: string
+                    enum:
+                      - credit
+                  attributes:
+                    type: object
+                    properties:
+                      credits:
+                        type: integer
+                  links:
+                    type: object
+
+components:
+  schemas:
+    Album:
+      type: object
+      properties:
+        id:
+          type: string
+          example: "55"
+        type: #
+          type: string
+          enum:
+            - "album"
+        attributes:
+          type: object
+          properties:
+            title:
+              type: string
+              example: Lateralus
+            artist:
+              type: string
+              example: Tool
+        relationships:
+          type: object
+          properties:
+            tracks:
+              type: object
+              properties:
+                links:
+                  type: object
+                  properties:
+                    related:
+                      type: string
+                      format: uri
+                      example: "http://jukebox.domain.com/api/v1/album/55/track"
+                data:
+                  type: object
+                  properties:
+                    type: #
+                      type: string
+                      example: "track"
+                    id:
+                      type: string
+                      example: "55-01"
+        links:
+          type: object
+
+    Track:
+      type: object
+      properties:
+        id:
+          type: string
+          example: "55-01"
+        type: #
+          type: string
+          enum:
+            - "track"
+      
+        attributes:
+          type: object
+          properties:
+            title:
+              type: string
+              example: "The Grudge"
+            duration:
+              type: string
+              example: "8:36"
+              # format: "need a custom format"
+            url:
+              type: string
+              example: "file://55/01.mp4"
+              format: uri
+        relationships:
+          type: object
+          properties:
+            album:
+              type: object
+              properties:
+                links:
+                  type: object
+                  properties:
+                    self:
+                      type: string
+                      format: uri
+                      example: "http://jukebox.domain.com/api/v1/album/55"
+        links:
+          type: object
+
+
+    PaginationNext:
+      type: string
+      format: uri
+      example: http://jukebox.domain.com/api/v1/album?page[after]=zzz&page[size]=15
+
+    PaginationPrevious:
+      type: string
+      format: uri
+      example: http://jukebox.domain.com/api/v1/album?page[before]=zzz&page[size]=15
+
+
+  requestBodies:
+    Charge:
+      description: Charge that was made which needs to be converted into jukebox credits
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              amount:
+                type: number
+                format: currency
+                example: "10.00"
+              currency:
+                type: string
+                enum:
+                  - usd
+                  # we only support USD right now
+                example: "usd"
+      
+
+  securitySchemes:
+    jukebox_auth:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://jukebox.domain.com/oauth/authorize
+          scopes:
+            read:tracks: read available tracks
+            read:albums: read available albums
+            write:balance: add credits to the jukebox
+            write:queueTrack: add a track to the playback queue
+            
+    api_key:
+      type: apiKey
+      name: api_key
+      in: header

@@ -1,0 +1,990 @@
+{
+  "albums": [
+    {
+      "title": "The Joshua Tree",
+      "artist": "U2",
+      "songs": [
+        {
+          "title": "Where The Streets Have No Name",
+          "duration": "5:37"
+        },
+        {
+          "title": "I Still Haven't Found What I'm Looking For",
+          "duration": "4:37"
+        },
+        {
+          "title": "With Or Without You",
+          "duration": "4:56"
+        },
+        {
+          "title": "Bullet The Blue Sky",
+          "duration": "4:32"
+        },
+        {
+          "title": "Running To Stand Still",
+          "duration": "4:17"
+        },
+        {
+          "title": "Red Hill Mining Town",
+          "duration": "4:53"
+        },
+        {
+          "title": "In God's Country",
+          "duration": "2:57"
+        },
+        {
+          "title": "Trip Through Your Wires",
+          "duration": "3:32"
+        },
+        {
+          "title": "One Tree Hill",
+          "duration": "5:22"
+        },
+        {
+          "title": "Exit",
+          "duration": "4:13"
+        },
+        {
+          "title": "Mothers Of The Disappeared",
+          "duration": "5:14"
+        }
+      ]
+    },
+    {
+      "title": "Diva",
+      "artist": "Annie Lennox",
+      "songs": [
+        {
+          "title": "Why",
+          "duration": "4:54"
+        },
+        {
+          "title": "Walking on Broken Glass",
+          "duration": "4:13"
+        },
+        {
+          "title": "Precious",
+          "duration": "5:09"
+        },
+        {
+          "title": "Legend In My Living Room",
+          "duration": "3:46"
+        },
+        {
+          "title": "Cold",
+          "duration": "4:24"
+        },
+        {
+          "title": "Money Can't Buy It",
+          "duration": "5:01"
+        },
+        {
+          "title": "Little Bird",
+          "duration": "4:52"
+        },
+        {
+          "title": "Primitive",
+          "duration": "4:20"
+        },
+        {
+          "title": "Stay By Me",
+          "duration": "6:28"
+        },
+        {
+          "title": "The Gift",
+          "duration": "4:55"
+        },
+        {
+          "title": "Keep Young And Beautiful",
+          "duration": "2:19"
+        }
+      ]
+    },
+    {
+      "title": "Live At Wembley Stadium",
+      "artist": "Queen",
+      "songs": [
+        {
+          "title": "One Vision",
+          "duration": "5:50"
+        },
+        {
+          "title": "Tie Your Mother Down",
+          "duration": "4:06"
+        },
+        {
+          "title": "In The Lap Of The Gods",
+          "duration": "2:29"
+        },
+        {
+          "title": "Seven Seas Of Rhye",
+          "duration": "1:18"
+        },
+        {
+          "title": "Tear It Up",
+          "duration": "2:12"
+        },
+        {
+          "title": "A Kind Of Magic",
+          "duration": "8:41"
+        },
+        {
+          "title": "Under Pressure",
+          "duration": "3:41"
+        },
+        {
+          "title": "Another One Bites The Dust",
+          "duration": "5:59"
+        },
+        {
+          "title": "Who Wants To Live Forever",
+          "duration": "4:08"
+        },
+        {
+          "title": "I Want To Break Free",
+          "duration": "3:34"
+        },
+        {
+          "title": "Impromptu",
+          "duration": "2:57"
+        },
+        {
+          "title": "Brighton Rock Solo",
+          "duration": "9:11"
+        },
+        {
+          "title": "Now I'm Here",
+          "duration": "6:20"
+        },
+        {
+          "title": "Love Of My Life",
+          "duration": "4:49"
+        },
+        {
+          "title": "Is This The World We Created",
+          "duration": "2:58"
+        },
+        {
+          "title": "(You're So Square) Baby I Don't Care",
+          "duration": "1:36"
+        },
+        {
+          "title": "Hello Mary Lou (Goodbye Heart)",
+          "duration": "1:51"
+        },
+        {
+          "title": "Tutti Frutti",
+          "duration": "3:24"
+        },
+        {
+          "title": "Gimme Some Lovin'",
+          "duration": "0:55"
+        },
+        {
+          "title": "Bohemian Rhapsody",
+          "duration": "5:51"
+        },
+        {
+          "title": "Hammer To Fall",
+          "duration": "6:04"
+        },
+        {
+          "title": "Crazy Little Thing Called Love",
+          "duration": "5:59"
+        },
+        {
+          "title": "Big Spender",
+          "duration": "1:06"
+        },
+        {
+          "title": "Radio Ga Ga",
+          "duration": "5:57"
+        },
+        {
+          "title": "We Will Rock You",
+          "duration": "2:48"
+        },
+        {
+          "title": "Friends Will Be Friends",
+          "duration": "2:06"
+        },
+        {
+          "title": "We Are The Champions",
+          "duration": "4:05"
+        },
+        {
+          "title": "God Save The Queen",
+          "duration": "1:36"
+        },
+        {
+          "title": "A Kind Of Magic",
+          "duration": "7:10"
+        },
+        {
+          "title": "Another One Bites The Dust",
+          "duration": "4:28"
+        },
+        {
+          "title": "Crazy Little Thing Called Love",
+          "duration": "5:55"
+        },
+        {
+          "title": "Tavaski Szel Vizet Araszt",
+          "duration": "1:53"
+        }
+      ]
+    },
+    {
+      "title": "Experience",
+      "artist": "The Prodigy",
+      "songs": [
+        {
+          "title": "Jericho",
+          "duration": "3:47"
+        },
+        {
+          "title": "Music Reach (1,2,3,4)",
+          "duration": "4:12"
+        },
+        {
+          "title": "Wind It Up",
+          "duration": "4:33"
+        },
+        {
+          "title": "Your Love - Remix",
+          "duration": "5:31"
+        },
+        {
+          "title": "Hyperspeed (G-force Part 2)",
+          "duration": "5:15"
+        },
+        {
+          "title": "Charly - Trip Into Drum and Bass Version",
+          "duration": "5:13"
+        },
+        {
+          "title": "Out of Space",
+          "duration": "5:02"
+        },
+        {
+          "title": "Everybody In The Place - 155 And Rising",
+          "duration": "4:11"
+        },
+        {
+          "title": "Weather Experience",
+          "duration": "8:05"
+        },
+        {
+          "title": "Fire - Sunrise Version",
+          "duration": "4:58"
+        },
+        {
+          "title": "Ruff In The Jungle Bizness",
+          "duration": "5:10"
+        },
+        {
+          "title": "Death Of The Prodigy Dancers - Live",
+          "duration": "3:43"
+        }
+      ]
+    },
+    {
+      "title": "The White Album",
+      "artist": "The Beatles",
+      "songs": [
+        {
+          "title": "Back In The U.S.S.R.",
+          "duration": "2:43"
+        },
+        {
+          "title": "Dear Prudence",
+          "duration": "3:56"
+        },
+        {
+          "title": "Glass Onion",
+          "duration": "2:18"
+        },
+        {
+          "title": "Ob-La-Di, Ob-La-Da",
+          "duration": "3:09"
+        },
+        {
+          "title": "Wild Honey Pie",
+          "duration": "0:53"
+        },
+        {
+          "title": "The Continuing Story Of Bungalow Bill",
+          "duration": "3:14"
+        },
+        {
+          "title": "While My Guitar Gently Weeps",
+          "duration": "4:45"
+        },
+        {
+          "title": "Happiness Is A Warm Gun",
+          "duration": "2:45"
+        },
+        {
+          "title": "Martha My Dear",
+          "duration": "2:29"
+        },
+        {
+          "title": "I'm So Tired",
+          "duration": "2:03"
+        },
+        {
+          "title": "Blackbird",
+          "duration": "2:18"
+        },
+        {
+          "title": "Piggies",
+          "duration": "2:04"
+        },
+        {
+          "title": "Rocky Raccoon",
+          "duration": "3:33"
+        },
+        {
+          "title": "Don't Pass Me By",
+          "duration": "3:50"
+        },
+        {
+          "title": "Why Don't We Do It In The Road?",
+          "duration": "1:41"
+        },
+        {
+          "title": "I Will",
+          "duration": "1:46"
+        },
+        {
+          "title": "Julia",
+          "duration": "2:57"
+        },
+        {
+          "title": "Birthday",
+          "duration": "2:43"
+        },
+        {
+          "title": "Yer Blues",
+          "duration": "4:00"
+        },
+        {
+          "title": "Mother Nature's Son",
+          "duration": "2:48"
+        },
+        {
+          "title": "Everybody's Got Something To Hide Except Me And My Monkey",
+          "duration": "2:25"
+        },
+        {
+          "title": "Sexy Sadie",
+          "duration": "3:15"
+        },
+        {
+          "title": "Helter Skelter",
+          "duration": "4:30"
+        },
+        {
+          "title": "Long, Long, Long",
+          "duration": "3:06"
+        },
+        {
+          "title": "Revolution 1",
+          "duration": "4:16"
+        },
+        {
+          "title": "Honey Pie",
+          "duration": "2:41"
+        },
+        {
+          "title": "Savoy Truffle",
+          "duration": "2:54"
+        },
+        {
+          "title": "Cry Baby Cry",
+          "duration": "3:02"
+        },
+        {
+          "title": "Revolution 9",
+          "duration": "8:22"
+        },
+        {
+          "title": "Good Night",
+          "duration": "3:14"
+        }
+      ]
+    },
+    {
+      "title": "Simple Things",
+      "artist": "Zero 7",
+      "songs": [
+        {
+          "title": "I Have Seen",
+          "duration": "5:05"
+        },
+        {
+          "title": "Polaris",
+          "duration": "4:48"
+        },
+        {
+          "title": "Destiny",
+          "duration": "5:38"
+        },
+        {
+          "title": "Give It Away",
+          "duration": "5:17"
+        },
+        {
+          "title": "Simple Things",
+          "duration": "4:24"
+        },
+        {
+          "title": "Red Dust",
+          "duration": "5:40"
+        },
+        {
+          "title": "Distractions",
+          "duration": "5:16"
+        },
+        {
+          "title": "In The Waiting Line",
+          "duration": "4:32"
+        },
+        {
+          "title": "Out Of Town",
+          "duration": "4:49"
+        },
+        {
+          "title": "This World",
+          "duration": "5:37"
+        },
+        {
+          "title": "Likufanele",
+          "duration": "6:05"
+        },
+        {
+          "title": "End Theme",
+          "duration": "3:39"
+        }
+      ]
+    },
+    {
+      "title": "Paul's Boutique",
+      "artist": "Beastie Boys",
+      "songs": [
+        {
+          "title": "To All The Girls",
+          "duration": "1:29"
+        },
+        {
+          "title": "Shake Your Rump",
+          "duration": "3:18"
+        },
+        {
+          "title": "Johnny Ryall",
+          "duration": "3:01"
+        },
+        {
+          "title": "Egg Man",
+          "duration": "2:58"
+        },
+        {
+          "title": "High Plains Drifter",
+          "duration": "4:13"
+        },
+        {
+          "title": "The Sounds Of Science",
+          "duration": "3:12"
+        },
+        {
+          "title": "3-Minute Rule",
+          "duration": "3:39"
+        },
+        {
+          "title": "Hey Ladies",
+          "duration": "3:48"
+        },
+        {
+          "title": "5-Piece Chicken Dinner",
+          "duration": "0:23"
+        },
+        {
+          "title": "Looking Down The Barrel Of A Gun",
+          "duration": "3:28"
+        },
+        {
+          "title": "Car Thief",
+          "duration": "3:40"
+        },
+        {
+          "title": "What Comes Around",
+          "duration": "3:08"
+        },
+        {
+          "title": "Shadrach",
+          "duration": "4:08"
+        },
+        {
+          "title": "Ask For Janice",
+          "duration": "0:11"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: 59 Chrystie Street",
+          "duration": "0:57"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: Get On The Mic",
+          "duration": "1:14"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: Stop That Train",
+          "duration": "1:59"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: A Year And A Day",
+          "duration": "2:22"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: Hello Brooklyn",
+          "duration": "1:32"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: Dropping Names",
+          "duration": "1:02"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: Lay It On Me",
+          "duration": "0:54"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: Mike On The Mic",
+          "duration": "0:48"
+        },
+        {
+          "title": "B-Boy Bouillabaisse: A.W.O.L.",
+          "duration": "1:46"
+        }
+      ]
+    },
+    {
+      "title": "Born In The U.S.A.",
+      "artist": "Bruce Springsteen",
+      "songs": [
+        {
+          "title": "Born in the U.S.A.",
+          "duration": "4:39"
+        },
+        {
+          "title": "Cover Me",
+          "duration": "3:26"
+        },
+        {
+          "title": "Darlington County",
+          "duration": "4:48"
+        },
+        {
+          "title": "Working on the Highway",
+          "duration": "3:12"
+        },
+        {
+          "title": "Downbound Train",
+          "duration": "3:35"
+        },
+        {
+          "title": "I'm On Fire",
+          "duration": "2:36"
+        },
+        {
+          "title": "No Surrender",
+          "duration": "4:00"
+        },
+        {
+          "title": "Bobby Jean",
+          "duration": "3:47"
+        },
+        {
+          "title": "I'm Goin' Down",
+          "duration": "3:29"
+        },
+        {
+          "title": "Glory Days",
+          "duration": "4:15"
+        },
+        {
+          "title": "Dancing In the Dark",
+          "duration": "4:01"
+        },
+        {
+          "title": "My Hometown",
+          "duration": "4:40"
+        }
+      ]
+    },
+    {
+      "title": "Somewhere in the Between",
+      "artist": "Streetlight Manifesto",
+      "songs": [
+        {
+          "title": "We Will Fall Together",
+          "duration": "4:49"
+        },
+        {
+          "title": "Down, Down, Down to Mephisto's Cafe",
+          "duration": "5:03"
+        },
+        {
+          "title": "Would You Be Impressed?",
+          "duration": "3:22"
+        },
+        {
+          "title": "One Foot on the Gas, One Foot in the Grave",
+          "duration": "5:28"
+        },
+        {
+          "title": "Watch It Crash",
+          "duration": "4:43"
+        },
+        {
+          "title": "Somewhere in the Between",
+          "duration": "3:43"
+        },
+        {
+          "title": "Forty Days",
+          "duration": "3:53"
+        },
+        {
+          "title": "The Blonde Lead the Blind",
+          "duration": "4:49"
+        },
+        {
+          "title": "The Receiving End of It All",
+          "duration": "5:18"
+        },
+        {
+          "title": "What a Wicked Gang Are We",
+          "duration": "3:23"
+        }
+      ]
+    },
+    {
+      "title": "Beats, Rhymes & Life",
+      "artist": "A Tribe Called Quest",
+      "songs": [
+        {
+          "title": "Phony Rappers",
+          "duration": "3:36"
+        },
+        {
+          "title": "Get a Hold",
+          "duration": "3:35"
+        },
+        {
+          "title": "Motivators",
+          "duration": "3:20"
+        },
+        {
+          "title": "The Jam",
+          "duration": "4:38"
+        },
+        {
+          "title": "Crew",
+          "duration": "1:58"
+        },
+        {
+          "title": "The Pressure",
+          "duration": "3:02"
+        },
+        {
+          "title": "1nce Again",
+          "duration": "3:49"
+        },
+        {
+          "title": "Mind Power",
+          "duration": "3:55"
+        },
+        {
+          "title": "The Hop",
+          "duration": "3:27"
+        },
+        {
+          "title": "Keeping It Moving",
+          "duration": "3:38"
+        },
+        {
+          "title": "Baby Phife's Return",
+          "duration": "3:18"
+        },
+        {
+          "title": "Separate/Together",
+          "duration": "1:38"
+        },
+        {
+          "title": "What Really Goes On",
+          "duration": "3:23"
+        },
+        {
+          "title": "Word Play",
+          "duration": "2:59"
+        },
+        {
+          "title": "Stressed out",
+          "duration": "4:58"
+        }
+      ]
+    },
+    {
+      "title": "The Blue Album",
+      "artist": "Weezer",
+      "songs": [
+        {
+          "title": "My Name Is Jonas",
+          "duration": "3:24"
+        },
+        {
+          "title": "No One Else",
+          "duration": "3:05"
+        },
+        {
+          "title": "The World Has Turned And Left Me Here",
+          "duration": "4:19"
+        },
+        {
+          "title": "Buddy Holly",
+          "duration": "2:39"
+        },
+        {
+          "title": "Undone - The Sweater Song",
+          "duration": "5:06"
+        },
+        {
+          "title": "Surf Wax America",
+          "duration": "3:06"
+        },
+        {
+          "title": "Say It Ain't So",
+          "duration": "4:19"
+        },
+        {
+          "title": "In The Garage",
+          "duration": "3:56"
+        },
+        {
+          "title": "Holiday",
+          "duration": "3:25"
+        },
+        {
+          "title": "Only In Dreams",
+          "duration": "7:59"
+        }
+      ]
+    },
+    {
+      "title": "Captain Fantastic And The Brown Dirt Cowboy",
+      "artist": "Elton John",
+      "songs": [
+        {
+          "title": "Captain Fantastic And The Brown Dirt Cowboy",
+          "duration": "5:46"
+        },
+        {
+          "title": "Tower Of Babel",
+          "duration": "4:28"
+        },
+        {
+          "title": "Bitter Fingers",
+          "duration": "4:34"
+        },
+        {
+          "title": "Tell Me When The Whistle Blows",
+          "duration": "4:21"
+        },
+        {
+          "title": "Someone Saved My Life Tonight",
+          "duration": "6:45"
+        },
+        {
+          "title": "(Gotta Get A) Meal Ticket",
+          "duration": "4:01"
+        },
+        {
+          "title": "Better Off Dead",
+          "duration": "2:37"
+        },
+        {
+          "title": "Writing",
+          "duration": "3:40"
+        },
+        {
+          "title": "We All Fall In Love Sometimes",
+          "duration": "4:13"
+        },
+        {
+          "title": "Curtains",
+          "duration": "6:35"
+        },
+        {
+          "title": "Lucy In The Sky With Diamonds",
+          "duration": "6:18"
+        },
+        {
+          "title": "One Day At A Time",
+          "duration": "3:49"
+        },
+        {
+          "title": "Philadelphia Freedom",
+          "duration": "5:25"
+        }
+      ]
+    },
+    {
+      "title": "Once Upon A Time",
+      "artist": "Simple Minds",
+      "songs": [
+        {
+          "title": "Once Upon A Time",
+          "duration": "5:46"
+        },
+        {
+          "title": "All The Things She Said",
+          "duration": "4:16"
+        },
+        {
+          "title": "Ghostdancing",
+          "duration": "4:45"
+        },
+        {
+          "title": "Alive And Kicking",
+          "duration": "5:26"
+        },
+        {
+          "title": "Oh Jungleland",
+          "duration": "5:14"
+        },
+        {
+          "title": "I Wish You Were Here",
+          "duration": "4:42"
+        },
+        {
+          "title": "Sanctify Yourself",
+          "duration": "4:58"
+        },
+        {
+          "title": "Come A Long Way",
+          "duration": "5:09"
+        }
+      ]
+    },
+    {
+      "title": "The Hands That Thieve",
+      "artist": "Streetlight Manifesto",
+      "songs": [
+        {
+          "title": "The Three of Us",
+          "duration": "5:18"
+        },
+        {
+          "title": "Ungrateful",
+          "duration": "4:31"
+        },
+        {
+          "title": "The Littlest Things",
+          "duration": "4:50"
+        },
+        {
+          "title": "The Hands That Thieve",
+          "duration": "5:40"
+        },
+        {
+          "title": "With Any Sort of Certainty",
+          "duration": "6:11"
+        },
+        {
+          "title": "If Only for Memories",
+          "duration": "5:28"
+        },
+        {
+          "title": "They Broke Him Down",
+          "duration": "5:20"
+        },
+        {
+          "title": "Toe to Toe",
+          "duration": "4:22"
+        },
+        {
+          "title": "Oh Me, Oh My",
+          "duration": "3:45"
+        },
+        {
+          "title": "Your Day Will Come",
+          "duration": "4:44"
+        }
+      ]
+    },
+    {
+      "title": "Chicago VII",
+      "artist": "Chicago",
+      "songs": [
+        {
+          "title": "Prelude to Aire",
+          "duration": "2:47"
+        },
+        {
+          "title": "Aire",
+          "duration": "6:27"
+        },
+        {
+          "title": "Devil's Sweet",
+          "duration": "10:07"
+        },
+        {
+          "title": "Italian from New York",
+          "duration": "4:14"
+        },
+        {
+          "title": "Hanky Panky",
+          "duration": "1:53"
+        },
+        {
+          "title": "Life Saver",
+          "duration": "5:18"
+        },
+        {
+          "title": "Happy Man",
+          "duration": "3:16"
+        },
+        {
+          "title": "(I've Been) Searchin' So Long",
+          "duration": "4:28"
+        },
+        {
+          "title": "Mongonucleosis",
+          "duration": "3:26"
+        },
+        {
+          "title": "Song of the Evergreens",
+          "duration": "5:20"
+        },
+        {
+          "title": "Byblos",
+          "duration": "6:18"
+        },
+        {
+          "title": "Wishing You Were Here",
+          "duration": "4:35"
+        },
+        {
+          "title": "Call on Me",
+          "duration": "4:03"
+        },
+        {
+          "title": "Women Don't Want To Love me",
+          "duration": "4:35"
+        },
+        {
+          "title": "Skinny Boy",
+          "duration": "5:12"
+        }
+      ]
+    }
+  ]
+}
